@@ -1,11 +1,18 @@
 # 221B
 
+<br/>
+
 > Status: Developed
+
+<br/>
 
 ![Register](https://user-images.githubusercontent.com/76015450/178150101-73e38978-134d-4a0d-b4dd-0009e816f526.png)
 
+<br/>
 
 # Context
+
+<br/>
 
 The web applicationt tha was developed owes its name to the 2 most famous in London, 21B Baker
 Street, fictional address of Sherlock Holmes. Once the homage is done, we will easily reach the objective of the
@@ -18,26 +25,43 @@ by given type) that allows one to create projects of several items,
 books, among other things). Basically, it allows the registration of the item/location so, in case of
 forgetfulness, will allow a quick location of a certain item, at home.
 
+<br/>
 
 # Frontend
 
+<br/>
 
 The frontend was dewveloped using HTML, CSS and JS
 
+<br/>
+
 ![Home](https://user-images.githubusercontent.com/76015450/178150256-4269fa1e-8404-48a4-b7ae-323eb7d9c38f.png)
+
+<br/>
 
 # Backend
 
+<br/>
+
 The Backend was developed with PHP, using MVC design pattern and MySQL using XAMPP.
+
+<br/>
 
 # Architecture
 
+<br/>
+
 ## Classes diagram
 
+<br/>
 
 ![DiagramaDeClasses](https://user-images.githubusercontent.com/76015450/178150626-1142ceb3-b770-4f34-85a1-37d17ad3bf6e.png)
 
+<br/>
+
 ## ER Model
+
+<br/>
 
 ![Modelo-ER](https://user-images.githubusercontent.com/76015450/178150639-8771eb22-a20a-44a2-a22c-f4bdb4075fb2.png)
 
