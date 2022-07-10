@@ -1,0 +1,203 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+body
+{
+    font-family: Arial;
+    color: black;
+}
+  
+.split
+{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.left 
+{
+  left: 0;
+  background-color: #C8E3D4;
+}
+  
+.right
+{
+    right: 0;
+    background-color: #87AAAA;
+}
+  
+.centered
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.title
+{
+  font-family: "Roboto Condensed";
+  font-size: 3em;
+  color:#000000; 
+  text-align: center;
+  padding-top: 0px;
+}
+
+input
+{
+  width: 270px;
+  height: 40px;
+  border-radius: 4px;
+  border-color: #949494;
+}
+
+.inputFlexBox
+{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  padding-top: 40px;
+  padding-left:50px;
+ 
+}
+
+.registerForm
+{
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.slogan
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  display: block;
+}
+
+.lastNameContainer
+{
+  padding-left: 5px;
+}
+
+.registerButton
+{
+  border-radius: 4px;
+  border-color: #949494;
+  width: 400px;
+  height:36px;
+  background-color: #F6EABE;
+  color: #000000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+p
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+a
+{
+  text-decoration: none;
+  color:#F6EABE;
+}
+
+
+.words {
+  color: black;
+  font-size: 0;
+  line-height: 1.5;
+}
+
+.words span {
+  margin-left: 50px;
+
+  font-size: 5rem;
+  display: inline-block;
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+
+.words span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.words span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.words span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.words span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.words span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.words span:nth-child(7) {
+  animation-delay: 3s;
+}
+
+.words span:nth-child(8) {
+  animation-delay: 3s;
+}
+
+
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+.warningAlert {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+}
+
+.successAlert {
+  padding: 20px;
+  background-color: #04AA6D;;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

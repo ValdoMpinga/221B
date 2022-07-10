@@ -1,0 +1,4 @@
+php unit install: composer require --dev phpunit/phpunit
+check version:./vendor/bin/phpunit --version
+
+./vendor/bin/phpunit <folder>

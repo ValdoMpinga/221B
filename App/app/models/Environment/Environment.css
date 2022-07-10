@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  color: black;
+}
+
+.split {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  /* padding-top: 30px; */
+}
+
+.left {
+  margin-top: 70px;
+  left: 0;
+  background-color: #f6eabe;
+}
+
+.right {
+  margin-top: 70px;
+  right: 0;
+  background-color: #c8e3d4;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul,
+#myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  color: black;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.caret::before {
+  content: "\25B6";
+  color: #04aa6d;
+  display: inline-block;
+  margin-right: 6px;
+  
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+  margin-left: 70px;
+  color:grey;
+  margin-top:10px;
+}
+
+.active {
+  display: block;
+}
+
+.compartmentImage {
+  border-right: 16px;
+  height: 150px;
+}
+
+.card {
+  width: 750px;
+  height: 150px;
+  background: linear-gradient(0.25turn,#f6d7a7, #87AAAA);
+  display: grid;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-top: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inputGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 30px;
+}
+
+#searchSubject {
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 380px;
+  height: 50px;
+}
+
+.searchBar {
+  margin-right: 80px;
+  margin-top: 25px;
+  width: 380px;
+  height: 45px;
+}
+
+.addButton {
+  float: right;
+
+}
+
+.compartmentCardActionButtons {
+  padding-top: 50px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.openButton {
+  margin-right: 10px;
+  border-radius: 10px;
+  background: #f6d7a7;
+  width: 100px;
+  height: 50px;
+}
+
+.editButton {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #04aa6d;
+  width: 100px;
+  height: 50px;
+  margin-top: -20px;
+
+}
+
+.eliminateButton {
+  border-radius: 10px;
+  background: #be1616;
+  width: 100px;
+  height: 50px;
+  margin-top: -20px;
+}
+
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 23px;
+}
+
+.dropdown-content {
+  display: none;
+  margin-left: 277px;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.compartmentLabel
+{
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.compartmentName
+{
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+
+}
+
+.actualEnvironment
+{
+  font-size: 30px;
+  display:block;
+  margin:auto;
+  padding-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000000 ;
+}
+

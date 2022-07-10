@@ -1,0 +1,153 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+body
+{
+    /* font-family: Arial;
+    color: black; */
+    font-family: "Archivo Black", sans-serif;
+  background: #f4d03f;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+  
+.split
+{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.left 
+{
+    /* margin-top: 70px; */
+  left: 0;
+  background-color: #C8E3D4;
+}
+  
+.right
+{
+    /* margin-top: 70px; */
+    right: 0;
+    background-color: #87AAAA;
+}
+
+.slogan
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  display: block;
+}
+
+
+
+
+.addCompartmentForm {
+  width: 451px;
+  height: 520px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 15px;
+  margin-left: 120px;
+  margin: auto;
+  display: block;
+  margin-top: 70px;
+
+}
+
+.addCompartmentFormHeader {
+  height: 125px;
+  background-image: url("../../../../../Assets/Images/updateCompartmentCardHeader.png");
+}
+
+.formInput {
+  margin-right: 230px;
+  width: 385px;
+  height: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.addCompartmentButton {
+  border-radius: 4px;
+  border-color: #949494;
+  width: 400px;
+  height: 36px;
+  background-color: #f6eabe;
+  color: #000000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 85px;
+}
+
+.compoartmentNameLabel {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.compartmentDescriptionLabel {
+  padding-right: 220px;
+  padding-left: 21px;
+  padding-top: 20px;
+
+}
+
+.compartmentName {
+  color: white;
+  font-size: 32px;
+  padding-top: 10px;
+  padding-left: 20px;
+  /* padding-right: 70px; */
+}
+
+
+.compartmentLabel {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 45px !important;
+  margin-right: 100px !important;
+}
+
+.compartmentName {
+  color: white;
+  font-size: 32px;
+  padding-top: 10px;
+  padding-right: 30px;
+  /* padding-right: 70px; */
+}
+
+.compoartmentNameLabel {
+  padding-right: 247px;
+  padding-top: 20px;
+}
+
+.backButton
+{
+  border-radius: 4px;
+  border-color: #949494;
+  width: 400px;
+  height: 36px;
+  color: #000000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color:#F6D7A7;
+}
+
+.backToEnvironment
+{
+  text-decoration: none;
+}
